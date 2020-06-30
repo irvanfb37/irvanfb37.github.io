@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    padding: 0px 18px;
+    justify-content: space-between;
+
+    background: #4f4085;
+
+}
+
+.email {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+}
+
+.email li {
+    list-style: none;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    font-size: 13px;
+    font-family: Pop;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 80px;
+}
+
+.gambar-logo ul {
+    display: flex;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+@font-face {
+    src: url(fonts/Poppins-Medium.ttf);
+    font-family: Pop;
+}
+
+.nav-menu li {
+    margin: 12px 12px;
+    color: black;
+    font-family: Pop;
+}
+
+
+.gambar-logo {
+    display: flex;
+}
+
+@font-face {
+    src: url(fonts/Poppins-Black.ttf);
+    font-family: Popp;
+}
+
+.under {
+    padding: 0px 20px;
+    font-family: Popp;
+    text-decoration: underline;
+
+}
