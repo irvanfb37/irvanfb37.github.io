@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 60px;
+    box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.user-icon {
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    margin: 0px 8px;
+    padding: 0px 2px;
+}
+
+.search-icon {
+    right: 10px;
+    margin: 0px 8px;
+}
+
+.gambar-logo ul {
+    display: flex;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+@font-face {
+    src: url(fonts/Poppins-Medium.ttf);
+    font-family: Pop;
+}
+
+.nav-menu li {
+    margin: 12px 12px;
+    color: black;
+    font-family: Pop;
+}
+
+
+.gambar-logo {
+    display: flex;
+}
+
+@font-face {
+    src: url(fonts/Poppins-Black.ttf);
+    font-family: Popp;
+}
+
+.tekstambahan {
+    margin: 12px 140px;
+    font-size: 20px;
+    font-family: Popp;
+}
